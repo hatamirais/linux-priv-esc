@@ -2,11 +2,13 @@
 
 Hatami Ra'is Bukhari (Althemier)
 
-[Linux PrivEsc](https://tryhackme.com/room/linuxprivesc)
+**Work-in-Progress**
+
+[Linux PrivEsc Room](https://tryhackme.com/room/linuxprivesc)
 
 # [Task 1] Deploy the VUlnerable Debian VM
 
-'user:password321'
+`user:password321`
 
 ## 1. Deploy the machine and login to the "user" account using SSH.
 
@@ -14,7 +16,7 @@ Hatami Ra'is Bukhari (Althemier)
 ssh user@TARGET_IP
 ```
 
-Password = 'password321'
+Password = `password321`
 
 ## 2. Run the "id" command. What is the result?
 
@@ -78,9 +80,11 @@ Exit out of the MySQL shell (type exit or \q and press Enter) and run the /tmp/r
 /tmp/rootbash -p
 ```
 
-** Remember to remove the /tmp/rootbash executable and exit out of the root shell before continuing as you will create this file again later in the room! **
+**Remember to remove the /tmp/rootbash executable and exit out of the root shell before continuing as you will create this file again later in the room!**
 
 ```
 rm /tmp/rootbash
 exit
 ```
+
+
